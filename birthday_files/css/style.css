@@ -39,6 +39,11 @@ form{
 	border-radius: 0;
 }
 
+option{
+	-webkit-appearance: none;
+border-radius: 0;
+}
+
  button{
     width: 20rem;
     /* background:cornflowerblue; */
