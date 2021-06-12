@@ -32,6 +32,8 @@ body{
    background:rgb(81, 255, 0);
    outline: none; /* クリックしたときに表示される枠線を消す */
    -webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
  }
 
 form{
