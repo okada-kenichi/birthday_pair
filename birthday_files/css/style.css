@@ -1,0 +1,115 @@
+@font-face {
+   font-family: 'myfont';
+   /* src: url('../font/mplus-1p-medium.otf'); */
+   src: url('../font/PixelMplus10-Regular.ttf');
+   }
+
+body{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+   /* color: cornflowerblue; */
+   color: rgb(81, 255, 0);
+   font-family:"myfont";
+   font-size: 1.3rem;
+   line-height:2em;
+   position: relative;
+   /* overflow: hidden; */
+ }
+
+ .wrapper{
+    width: 95%;
+    /* height: 100rem; */
+      display: inline-block;
+      text-align: center;
+      position: relative;
+      /* top: 35vh; */
+ }
+
+ select{
+   -webkit-appearance: none; /* iPhone用リセット */
+   -moz-appearance: none; /* iPhone用リセット */
+   appearance: none; /* iPhone用リセット */
+   border-radius: 0; /* iPhone用リセット */
+   width: 20rem;
+   font-family:myfont;
+   font-size: 2rem;
+   padding: 5px;
+   background:rgb(81, 255, 0);
+   outline: none; /* クリックしたときに表示される枠線を消す */
+ }
+
+form{
+	-webkit-appearance: none;
+	border-radius: 0;
+}
+
+option{
+	-webkit-appearance: none;
+border-radius: 0;
+}
+
+ button{
+    width: 20rem;
+    /* background:cornflowerblue; */
+    background:rgb(0, 0, 0);
+    font-family:myfont;
+    font-size: 2rem;
+    color: rgb(81, 255, 0);
+    padding: 5px;
+    border-style: solid; border-color:rgb(81, 255, 0);
+ }
+
+ #answer{
+   font-size: 4rem;
+   padding:10px;
+ }
+
+ #pair{
+   font-size: 1.8rem;
+ }
+
+ mark{
+    font-size:2.5rem;
+    color: rgb(81, 255, 0);
+ }
+
+ /* .br::before {
+	content: "\A" ;
+	white-space: pre ;
+}
+
+em{
+   font-size: 1.6rem;
+} */
+
+#mybtn{
+   width: 10rem;
+    background:rgb(0, 0, 0);
+    font-size: 1.5rem;
+    color: rgb(81, 255, 0);
+    padding: 5px;
+    border-style: solid; border-color:rgb(81, 255, 0);
+    margin-bottom: 1rem;
+}
+
+#slide{
+   display:none;
+}
+
+#slide div{
+   padding: 0.5rem;
+   text-align:left;
+   margin-bottom: 0.5rem;
+   font-size: 1rem;
+   line-height: 1.4rem;
+   background-color: rgb(81, 255, 0);
+   color: black;
+   font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+}
+
+#slide div p{
+   margin-bottom: 0.5rem;
+}
