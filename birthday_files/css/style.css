@@ -39,6 +39,8 @@ body{
    padding: 5px;
    background:rgb(81, 255, 0);
    outline: none; /* クリックしたときに表示される枠線を消す */
+   text-align:center;
+   text-align:-webkit-center;
  }
 
 form{
